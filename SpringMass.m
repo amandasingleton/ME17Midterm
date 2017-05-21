@@ -22,7 +22,7 @@ x3=X(3)*sin(wi*t);
 num=place(i,c);
 figure(num)
 plot(t,x1-2.5,t,x2,t,x3+2.5);
-axis([0 10 -5 5])
+axis([0 10 -5 5]); xlabel('time'); ylabel('displacement');
 
 end
 end
